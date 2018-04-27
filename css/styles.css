@@ -1,0 +1,9 @@
+#centre {
+  text-align: center;
+  background-image: url("../images/backgrounds/landing.jpg");
+}
+#white {
+  color: white;
+  font-size: 25px;
+  font-family: monospace;
+}
