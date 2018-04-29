@@ -55,9 +55,10 @@ form {
 }
 #customers {
   text-align: center;
-}
-#About {
-  text-align: center;
+  width: 1000px;
+  padding: 0px;
+  height: 200px;
+  background-color: white;
 }
 #MENU {
   background-color: #F15A29;
@@ -247,4 +248,40 @@ body {
 }
 .col-md-3 {
   padding: 0px;
+}
+#cust {
+  width: 500px;
+  padding-right: 0px;
+  height: inherit;
+}
+#cust2 {
+  width: 400px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+  height: inherit;
+}
+#sec {
+  width: 500px;
+  padding-right: 0px;
+  border-right: 0px;
+  border-right-style: groove;
+}
+#cf {
+  height: 161px;
+}
+#second {
+  width: 1014px;
+  height: 210px;
+}
+#our {
+  border-right-style: groove;
+  padding-right: 0px;
+  border-width: thin;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  width: 600px;
+}
+#about {
+  padding-left: 10px;
 }
