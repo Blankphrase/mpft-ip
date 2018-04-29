@@ -151,5 +151,29 @@ button {
   width: 495px;
 }
 #branch {
-  padding-bottom: 50px; 
+  padding-bottom: 50px;
+}
+#urger {
+  padding: 0px;
+}
+#beef {
+  padding: 0px;
+}
+#pizza {
+  padding: 0px;
+}
+.panel-footer {
+  padding: 0px;
+  height: 30px;
+  background-color: transparent;
+  border-color: transparent;
+}
+#fot1 {
+  padding-top: 10px;
+}
+#fot2 {
+  padding-top: 10px;
+}
+#fot3 {
+  padding-top: 10px;
 }
