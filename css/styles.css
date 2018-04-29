@@ -1,9 +1,155 @@
 #centre {
   text-align: center;
   background-image: url("../images/backgrounds/landing.jpg");
+  background-origin: content-box;
+  background-position: center;
+  width: 100%;
 }
-#white {
+.white {
   color: white;
   font-size: 25px;
-  font-family: monospace;
+  font-weight: 100;
+  text-align: center;
+}
+#grey {
+  background-color: silver;
+  text-align: center;
+}
+#red {
+  background-color: #F15A29;
+  text-align: center;
+}
+#Breakfast {
+  background-image: url("../images/foodtop/breakfast.jpg");
+  text-align: center;
+  font-style: italic;
+  color: white;
+  background-origin: content-box;
+  padding-bottom: 80px;
+  font-weight: bold;
+}
+#Lunch {
+  background-image: url("../images/foodtop/lunch.jpg");
+  text-align: center;
+  font-style: italic;
+  color: white;
+  background-origin: content-box;
+  padding-bottom: 80px;
+}
+#Dinner {
+  background-image: url("../images/foodtop/dinner.jpg");
+  text-align: center;
+  font-style: italic;
+  color: white;
+  padding-bottom: 80px;
+  background-origin: padding-box;
+  background-position: bottom;
+}
+#grid {
+  background-image: url("../images/backgrounds/foodsBg.jpg");
+  background-color: transparent;
+}
+#Subscribe {
+  background-image: url("../images/backgrounds/subscribe.jpg");
+}
+form {
+  text-align: center;
+}
+#customers {
+  text-align: center;
+}
+#About {
+  text-align: center;
+}
+#MENU {
+  background-color: #F15A29;
+  text-align: center;
+}
+.full {
+  width: 100%
+}
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.jumbotron {
+  background-color: transparent;
+  border-radius: 0px;
+  margin: 0px;
+  width: 100%;
+}
+body {
+  width: 100%;
+}
+.col-md-3 {
+  min-height: inherit;
+  padding: inherit;
+}
+#times {
+  width: 100%;
+  padding-top: 0px;
+}
+#party {
+  background-color: #F15A29;
+  padding-bottom: 37px;
+  padding-top: 18px;
+  text-align: center;
+  color: white;
+}
+#happy {
+  background-color: silver;
+  padding-bottom: 15px;
+  text-align: center;
+}
+#float {
+  float: right;
+}
+.container-fluid {
+  padding: inherit;
+}
+#first {
+  height: 150px;
+}
+#zero {
+  padding: 0px;
+}
+.panel-body{
+  padding: 0px;
+}
+.well {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-color: transparent;
+}
+#width {
+  width: 535px;
+}
+button {
+  border-color: red;
+  background-color: transparent;
+  border-width: thin;
+  border-style: inset;
+  padding: 10px;
+  color: red;
+  font-weight: 300;
+}
+#text {
+  width: 0px;
+}
+#straw {
+  width: 245px;
+  height: 390px;
+  padding-top: 0px;
+}
+#well {
+  padding-left: 0px;
+  width: 495px;
+}
+#branch {
+  padding-bottom: 50px; 
 }
