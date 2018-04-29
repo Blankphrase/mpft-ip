@@ -47,8 +47,10 @@
   background-image: url("../images/backgrounds/foodsBg.jpg");
   background-color: transparent;
 }
-#Subscribe {
+#subscribe {
   background-image: url("../images/backgrounds/subscribe.jpg");
+  height: 310px;
+
 }
 form {
   text-align: center;
