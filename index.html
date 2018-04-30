@@ -3,16 +3,28 @@
     <head>
       <title>ANITA'S KITCHEN</title>
       <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <link type="text/css" rel="stylesheet" href="css/styles.css">
       <meta charset="utf-8">
       <link href="https://fonts.googleapis.com/css?family=Gothic+A1|Raleway|Catamaran|Rajdhani|Roboto" rel="stylesheet">
     </head>
     <body>
-      <div class="jumbotron" id="centre">
-        <header>
-          <img src="images/logoBig.png" alt="image of a an humberger logo">
+      <div id="cent">
+        <div id="myNav" class="overlay back">
+          <a href="javascript:void(0)" class="closebtn" onclick="closenav()">&times;</a>
+          <div class="overlay-content">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+          </div>
+        </div>
+        <span class="veer" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <div class="jumbotron" id="centre">
+          <header>
+            <img src="images/logoBig.png" alt="image of a an humberger logo">
             <p id="top">We Provide The Best Food<br /> At The <strong>Right Price</strong></p>
-        </header>
+          </header>
+        </div>
       </div>
       <div class="container-fluid" id="hover">
         <div class="col-md-3" id="first">
@@ -29,21 +41,21 @@
           <br/>
           <br/>
           <br/>
-          <p>Breakfast</p>
+          <p id="break">Breakfast</p>
         </div>
         <div class="col-md-3" id="Lunch">
           <br/>
           <br/>
           <br/>
           <br/>
-          <p>Lunch</p>
+          <p id="lun">Lunch</p>
         </div>
         <div class="col-md-3" id="Dinner">
           <br/>
           <br/>
           <br/>
           <br/>
-          <p>Dinner</p>
+          <p id="din">Dinner</p>
         </div>
       </div>
       <br/>
@@ -64,14 +76,19 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6`">`
+        <div class="col-md-6">
           <section class="picFast">
-            <h3>Fast Food</h3>
+            <h3 id="fas">Fast Food</h3>
             <br/>
-            <h5>You'll love our delicious fast food</h5>
-            <p>At Anita's kitchen we serve the most delicious fast foods in town,<br />
-              Prepared on order, they're hot and pleasant in the eye</p>
-              <button class="but">VIEW GALLERY</button>
+            <h5 id="del">You'll love our delicious fast food</h5>
+            <p>Mauris in tincidunt urna. Phasellus tristique in<br/>
+               ante non faucibus. Praesent porta leo sit amet <br/>
+               lorem sagittis, nec egestas eros ullamcorper. Morbi<br/>
+               posuere laoreet pharetra. Aliquam a enim ut sem rutrum<br/>
+               cursus.Nam pretium tincidunt suscipit. Proin convallis <br/>
+               consequat nibh ac maximus. Praesent sem mi, bibendum nec<br/>
+               vulputate sodales, tincidunt non risus.</p>
+            <button id="but"><span id="bu">VIEW GALLERY  </span><span class="glyphicon glyphicon-arrow-right" style="color:#F15A29"></span></button>
           </section>
         </div>
       </div>
@@ -85,9 +102,14 @@
             <h3>Drinks</h3>
             <br/>
             <h5>We also produce delicious drinks</h5>
-            <p>We make delicious cooktails, fresh fruit juice from natural fruits,<br />
-             our fruits</p>
-            <button class="but">VIEW GALLERY</button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
+              Duis sit amet ante augue. Quisque quis placerat sem.<br/>
+              Phasellus maximus aliquam mauris, a iaculis risus luctus at. Nunc vulputate,<br/>
+              justo et semper aliquam, velit eros consectetur erat,<br/>
+              semper varius nulla erat nec odio. Nam nec quam sapien.<br/>
+              In vel magna a massa tincidunt sollicitudin. Etiam posuere volutpat mollis.<br/>
+              Donec aliquam at felis quis condimentum. Quisque in suscipit purus. Suspendisse ac pulvinar tellus.</p>
+            <button id="but"><span id="bu">VIEW GALLERY  </span><span class="glyphicon glyphicon-arrow-right" style="color:#F15A29"></span></button>
           </section>
         </div>
         <div class="col-md-6">
@@ -129,6 +151,7 @@
             </div>
             <div class="panel-body" id="pics">
               <div class="col-md-4" id="urger">
+                <span class="glyphicon glyphicon-chevron-left" style="color:#F15A29"></span>
                 <img src="images/fastfood/chickenBurger.jpg">
               </div>
               <div class="col-md-4" id="beef">
@@ -136,6 +159,7 @@
               </div>
               <div class="col-md-4" id="pizza">
                 <img src="images/fastfood/chickenPizza.jpg">
+                <span class="glyphicon glyphicon-chevron-right" style="color:#F15A29"></span>
               </div>
             </div>
             <div class="panel-footer" id="footer">
@@ -167,18 +191,22 @@
                 <div class="row">
                   <br/>
                   <div class="col-md-8" id="our">
-                    <h4>Our Happy Customers</h4>
-                    <h6>George Richard</h6>
+                    <h4 class="family">Our Happy Customers</h4>
+                    <h6 id="fam">George Richard</h6>
                     <p>Great food! Menu is awesome, their foods are not only great
                       <br/>also in the right price. I'll highly recommend them :)</p>
+                      <span class="glyphicon glyphicon-chevron-left" style="color:#F15A29"></span>
                       <img src="images/customers/p1.png">
                       <img src="images/customers/p2.png">
                       <img src="images/customers/p3.png">
+                      <span class="glyphicon glyphicon-chevron-right" style="color:#F15A29"></span>
                   </div>
                   <div class="col-md-3" id="about">
-                    <h4>About Menu</h4>
+                    <h4 class="family">About Menu</h4>
                     <p>We are a little team of seven dedicated members,<br />
-                      who work deligently to serve you the best cooked<br/> meals that'll leave a sweet taste on your tongue.</p>
+                      Suspendisse accumsan purus dignissim, luctus nisi<br/>
+                      hendrerit nibh. Nullam vestibulum laoreet urna, co<br/>
+                      elit vehicula vel. Suspendisse tincidunt</p>
                   </div>
                 </div>
                 <br/>
@@ -200,7 +228,7 @@
           <br/>
           <h3 class="white">Get our daily food items delivered to your email</h3>
           <form method="get" name="email">
-            <input name="Your email" type="email" id="short"></input>
+            <input name="Your email" type="email" id="short" placeholder="Your email" style="background-color:box-shadow"></input>
             <button id="long">Subscribe</button>
           </form>
         </div>
@@ -210,12 +238,15 @@
           <br/>
           <br/>
           <br/>
-          <p><img src="images/footerlogos/logo_white.png">MENU</p>
+          <p><img src="images/footerlogos/logo_white.png">  <span id="menn">MENU</span></p>
+          <br/>
           <p>Thats What We Are</p>
           <br />
-          <img src="images/footerlogos/facebook.png">
-          <img src="images/footerlogos/twitter.png">
-          <img src="images/footerlogos/pinterest.png">
+          <p id="mgk">
+            <img src="images/footerlogos/facebook.png" id="mgk">
+            <img src="images/footerlogos/twitter.png">
+            <img src="images/footerlogos/pinterest.png">
+          </p>
           <br />
           <br />
           <br />
