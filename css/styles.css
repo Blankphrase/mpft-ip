@@ -60,7 +60,7 @@ strong {
 }
 #break {
   font-family: 'Catamaran';
-  font-size: 35px;
+  font-size: 30px;
 }
 #Lunch {
   background-image: url("../images/foodtop/lunch.jpg");
@@ -72,7 +72,7 @@ strong {
 }
 #lun {
   font-family: 'Catamaran';
-  font-size: 35px;
+  font-size: 30px;
 }
 #Dinner {
   background-image: url("../images/foodtop/dinner.jpg");
@@ -84,7 +84,7 @@ strong {
 }
 #din {
   font-family: 'Catamaran';
-  font-size: 35px;
+  font-size: 30px;
 }
 #grid {
   background-image: url("../images/backgrounds/foodsBg.jpg");
@@ -351,6 +351,7 @@ body {
 }
 #short {
   width: 280px;
+  background:rgba(255,255,255, 0.3);
 }
 #final {
   background-color: #F15A29;
