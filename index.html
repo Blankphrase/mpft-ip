@@ -1,25 +1,32 @@
 <!DOCTYPE html>
   <html lang="en">
     <head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118584133-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-118584133-1');
+      </script>
       <title>ANITA'S KITCHEN</title>
       <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <link type="text/css" rel="stylesheet" href="css/styles.css">
+      <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
       <meta charset="utf-8">
       <link href="https://fonts.googleapis.com/css?family=Gothic+A1|Raleway|Catamaran|Rajdhani|Roboto" rel="stylesheet">
     </head>
     <body>
-      <div id="cent">
-        <div id="myNav" class="overlay back">
-          <a href="javascript:void(0)" class="closebtn" onclick="closenav()">&times;</a>
+      <div class="jumbotron" id="centre">
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <div class="overlay-content">
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
+            <a href="#">Contacts</a>
+            <a href="#">Events</a>
+            <a href="#">Menu</a>
           </div>
         </div>
-        <span class="veer" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-        <div class="jumbotron" id="centre">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
           <header>
             <img src="images/logoBig.png" alt="image of a an humberger logo">
             <p id="top">We Provide The Best Food<br /> At The <strong>Right Price</strong></p>
@@ -28,11 +35,23 @@
       </div>
       <div class="container-fluid" id="hover">
         <div class="col-md-3" id="first">
-          <div id="happy">
+          <button id="happy">
+            <div id="myModal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Come enjoy drinks at half the price and great music</p>
+              </div>
+            </div>
             <br/>
             <p>Happy Hour</p>
-          </div>
+          </button>
           <div id="party">
+            <div id="mModal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>It's time to party till dawn, from 6pm</p>
+              </div>
+            </div>
             <p>Party Time</p>
           </div>
         </div>
@@ -226,11 +245,23 @@
           <br/>
           <br/>
           <br/>
-          <h3 class="white">Get our daily food items delivered to your email</h3>
-          <form method="get" name="email">
+          <!--<h3 class="white">Get our daily food items delivered to your email</h3>-->
+          <div id="mc_embed_signup">
+            <form action="https://github.us18.list-manage.com/subscribe/post?u=35a8b96b14e230203e4f5c93d&amp;id=a777ff4f3b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+	               <label for="mce-EMAIL" class="white">Get our daily food items delivered to your email</label><br/>
+                   <div>
+                     <input aria-hidden="true" type="text" placeholder="Your email" name="b_35a8b96b14e230203e4f5c93d_a777ff4f3b" tabindex="-1" value="">
+                     <button id="long" type="submit">Subscribe</button>
+                   </div>
+                 </p>
+              </div>
+            </form>
+          </div>-->
+        <!--  <form method="get" name="email">
             <input name="Your email" type="email" id="short" placeholder="Your email" style="background-color:box-shadow"></input>
-            <button id="long">Subscribe</button>
-          </form>
+            <
+          </form>-->
         </div>
       </div>
       <div class="container-fluid" id="final">
@@ -240,7 +271,7 @@
           <br/>
           <p><img src="images/footerlogos/logo_white.png">  <span id="menn">MENU</span></p>
           <br/>
-          <p>Thats What We Are</p>
+          <p class="meen">Thats What We Are</p>
           <br />
           <p id="mgk">
             <img src="images/footerlogos/facebook.png" id="mgk">
@@ -253,7 +284,7 @@
         </div>
         <div class="row">
           <footer>
-            <p>2016 Menu Restaurant</p>
+            <p class="meen">2016 Menu Restaurant</p>
           </footer>
         </div>
       </div>
