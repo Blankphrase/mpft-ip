@@ -1,6 +1,6 @@
 # ANITA'S KITCHEN
 #### This is a webpage about Anita's kitchen , 30th April 2018
-#### By **{CLIFFORD KASERA}**
+#### By **CLIFFORD KASERA**
 ## Description
 This webpage is created to showcase what's on offer by Anita, it contains a detailed summary of the foods offered, a feedback section by customers and a subscription form and button for content from Anita.
 ## Setup/Installation Requirements
